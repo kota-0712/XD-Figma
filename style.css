@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  height: 1537px;
+  width: 1280px;
+  color: #333;
+}
+
+.aboutimage {
+  text-align: center;
+  width: 1280px;
+  height: 600px;
+}
+
+/* ヘッダー */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.header__nav-list {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header__nav-item {
+  margin-left: 20px;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  color: #333;
+}
+
+/* メインビジュアル */
+.mv {
+  width: 100%;
+}
+
+/* Aboutセクション */
+.about {
+  margin: auto;
+  width: 1280px;
+  margin: 0px 598px;
+}
+
+.about__content {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about__content-img {
+}
+
+.about__content-description {
+}
+
+.bicycle {
+  padding: 40px 20px;
+}
+
+/* フッター */
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
