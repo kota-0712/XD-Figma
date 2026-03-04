@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="header">
-      <h1 class="header__title">profile</h1>
+      <h1 class="header__title">Profile</h1>
       <nav class="header__nav">
         <ul class="header__nav-list">
           <li class="header__nav-item">
@@ -22,7 +22,7 @@
     </header>
     <main>
       <div class="mv">
-        <img src="./images/mv.png" alt="自転車の写真" />
+        <img class="mv__img" src="./images/mv.png" alt="自転車の写真" />
       </div>
       <section class="about">
         <h2 class="about__title">About</h2>
@@ -40,13 +40,41 @@
           </div>
         </div>
       </section>
+
       <section class="bicycle">
         <h2 class="bicycle__ttitle">Bicycle</h2>
-        <img src="./images/bicycle1@2x.png" alt="自転車の写真" />
-        <div class="bicycle__text title">テキストタイトル</div>
-        <p class="bicycle__content">テキストテキストテキスト</p>
+        <ul class="bicycle__list">
+          <li class="bicycle__list-item">
+            <img
+              class="bicycle__list-img"
+              src="./images/bicycle1@2x.png"
+              alt="自転車の写真"
+            />
+            <h3 class="bicycle__list-title">テキストタイトル</h3>
+            <p class="bicycle__list-text">テキストテキストテキスト</p>
+          </li>
+          <li class="bicycle__list-item">
+            <img
+              class="bicycle__list-img"
+              src="./images/bicycle2@2x.png"
+              alt="自転車の写真"
+            />
+            <h3 class="bicycle__list-title">テキストタイトル</h3>
+            <p class="bicycle__list-text">テキストテキストテキスト</p>
+          </li>
+          <li class="bicycle__list-item">
+            <img
+              class="bicycle__list-img"
+              src="./images/bicycle3@2x.png"
+              alt="自転車の写真"
+            />
+            <h3 class="bicycle__list-title">テキストタイトル</h3>
+            <p class="bicycle__list-text">テキストテキストテキスト</p>
+          </li>
+        </ul>
       </section>
-      <section class="bicycle">
+
+      <!-- <section class="bicycle">
         <h2 class="bicycle__ttitle">Bicycle</h2>
         <img src="./images/bicycle2@2x.png" alt="自転車の写真" />
         <div class="bicycle__text title">テキストタイトル</div>
@@ -57,8 +85,10 @@
         <img src="./images/bicycle3@2x.png" alt="自転車の写真" />
         <div class="bicycle__text title">テキストタイトル</div>
         <p class="bicycle__content">テキストテキストテキスト</p>
-      </section>
+      </section> -->
     </main>
-    <footer><p>&copy;2020 profile</p></footer>
+    <footer class="footer">
+      <p class="footer__text">&copy;2020 profile</p>
+    </footer>
   </body>
 </html>
