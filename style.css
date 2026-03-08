@@ -74,7 +74,10 @@ body {
 }
 
 .about__title {
-  text-align: center;
+  width: 110px;
+  margin: 48px auto;
+  padding-bottom: 0%;
+  border-bottom: 1px solid;
 }
 
 .about__content {
@@ -99,6 +102,10 @@ body {
 .bicycle__ttitle {
   text-align: center;
   margin-top: 100px;
+  width: 117px;
+  margin: 48px auto;
+  padding-bottom: 0%;
+  border-bottom: 1px solid;
 }
 .bicycle__list {
   display: flex;
